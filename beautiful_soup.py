@@ -28,3 +28,13 @@ soup = BeautifulSoup(full_html, 'html.parser')
 content_list = soup.find("li", class_='bdr_nor')
 
 print(content_list.text)
+
+orig_stdout = sys.stdout
+f = open(f_name, 'a', encoding="UTF-8")
+sys.stdout = f
+time.sleep(1)
+html = driver.page_source
+
+
+sys.stdout = orig_stdout
+
