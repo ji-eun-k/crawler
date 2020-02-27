@@ -33,7 +33,11 @@ soup = BeautifulSoup(html, 'html.parser')
 content_list = soup.find('ul', class_='list_thumType flnon')
 
 for i in content_list:
-    print(i.text.strip())
+    contents = i.find('div', class_='tit').get_text()
+    print('내용:',contents.strip())
+
+    tag = i.find('p', 'tag').get_text()
+    print('태그:',tag.strip())
     print('\n')
 
 sys.stdout = orig_stdout
