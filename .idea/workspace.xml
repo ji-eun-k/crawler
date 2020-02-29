@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259636fd-7c73-4c8d-9c4f-8411ca69a912" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/xls연습.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beautiful_soup.py" beforeDir="false" afterPath="$PROJECT_DIR$/beautiful_soup.py" afterDir="false" />
     </list>
@@ -33,9 +34,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.beautiful_soup">
+  <component name="RunManager" selected="Python.xls연습">
     <configuration name="7_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="crawler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,8 +79,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xls연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="crawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xls연습.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xls연습" />
         <item itemvalue="Python.beautiful_soup" />
         <item itemvalue="Python.7_example" />
       </list>
@@ -99,29 +122,35 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1246" y="329" key="FileChooserDialogImpl" timestamp="1582884765614">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="997" y="261" key="FileChooserDialogImpl" timestamp="1582973310179">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="997" y="261" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582973310179" />
     <state x="1246" y="329" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582884765614" />
-    <state width="1377" height="251" key="GridCell.Tab.0.bottom" timestamp="1582885211495">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="247" key="GridCell.Tab.0.bottom" timestamp="1582975182198">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="247" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582975182198" />
     <state width="1377" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582885211495" />
-    <state width="1377" height="251" key="GridCell.Tab.0.center" timestamp="1582885211495">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="247" key="GridCell.Tab.0.center" timestamp="1582975182198">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="247" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582975182198" />
     <state width="1377" height="251" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582885211495" />
-    <state width="1377" height="251" key="GridCell.Tab.0.left" timestamp="1582885211495">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="247" key="GridCell.Tab.0.left" timestamp="1582975182197">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="247" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582975182197" />
     <state width="1377" height="251" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582885211495" />
-    <state width="1377" height="251" key="GridCell.Tab.0.right" timestamp="1582885211495">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="746" height="247" key="GridCell.Tab.0.right" timestamp="1582975182198">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="746" height="247" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582975182198" />
     <state width="1377" height="251" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582885211495" />
-    <state x="536" y="172" key="SettingsEditor" timestamp="1582885097085">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="314" y="35" key="SettingsEditor" timestamp="1582973419456">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="314" y="35" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582973419456" />
     <state x="536" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582885097085" />
   </component>
 </project>

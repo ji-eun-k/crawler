@@ -67,6 +67,4 @@ korea_trip['태그'] = tags2
 korea_trip.to_csv(fc_name, encoding="utf-8-sig")
 print("csv 파일 저장 경로: %s" %fc_name)
 
-
-
 print("데이터 수집이 완료되었습니다.")
