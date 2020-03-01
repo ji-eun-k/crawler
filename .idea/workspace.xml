@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259636fd-7c73-4c8d-9c4f-8411ca69a912" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xls연습.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beautiful_soup.py" beforeDir="false" afterPath="$PROJECT_DIR$/beautiful_soup.py" afterDir="false" />
     </list>

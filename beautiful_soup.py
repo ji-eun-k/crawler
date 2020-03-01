@@ -3,8 +3,14 @@ from selenium import webdriver
 import time
 import sys
 import pandas as pd
+import math
 
 query_txt = input('크롤링할 키워드는 무엇인가요?: ')
+
+cnt = int(input('크롤링 할 건수는 몇 건입니까?: '))
+
+page_cnt = math.ceil(cnt/10)
+
 f_name = input('검색 결과를 저장할 txt 파일경로와 이름을 지정하세요 (예: C:\\Users\\s_jeun097\\Desktop\\crawler\\1.txt)": ')
 fc_name = input('검색 결과를 저장할 csv 파일경로와 이름을 지정하세요 (예: C:\\Users\\s_jeun097\\Desktop\\crawler\\1.csv": ')
 fx_name = input('검색 결과를 저장할 xls 파일경로와 이름을 지정하세요 (예: C:\\Users\\s_jeun097\\Desktop\\crawler\\1.xls)": ')
